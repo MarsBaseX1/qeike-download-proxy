@@ -1,0 +1,7 @@
+# download.qeike.com R2 proxy app dir
+Options -Indexes
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^index\.php$ - [L]
+  RewriteRule ^ - [F]
+</IfModule>
